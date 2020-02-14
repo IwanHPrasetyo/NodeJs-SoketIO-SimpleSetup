@@ -7,5 +7,17 @@
 </head>
 <body>
     <p>wooooooossssh</p>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+        let socket = io();
+        socket.on('connect', () => {
+            console.log('koneksi ke server')
+        })
+
+        socket.on('disconnect', () => {
+            console.log('koneksi terputus')
+        })
+
+    </script>
 </body>
 </html>
