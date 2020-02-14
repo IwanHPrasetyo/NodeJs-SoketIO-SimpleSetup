@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_soketio",
+  "version": "1.0.0",
+  "description": "Simple Nodejs Soket IO Simple",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node":"8.16.0"
+  },
+  "author": "Iwan H Prasetyo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
